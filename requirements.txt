@@ -1,0 +1,9 @@
+# To ensure app dependencies are ported from your virtual environment/host machine into your container, run 'pip freeze > requirements.txt' in the terminal to overwrite this file
+pymongo[srv]
+Flask==1.1.2
+gunicorn
+numpy
+python-dateutil==2.8.1
+line-bot-sdk
+pytz
+pandas
